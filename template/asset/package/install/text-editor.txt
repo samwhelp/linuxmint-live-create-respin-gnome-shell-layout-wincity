@@ -1,0 +1,59 @@
+
+
+##
+## # Text Editor
+##
+
+
+
+
+##
+## ## Package / Nano
+##
+
+nano
+
+
+
+
+##
+## ## Package / Micro
+##
+
+micro
+
+
+
+
+##
+## ## Package / Vim
+##
+
+vim
+
+
+
+
+##
+## ## Package / Neovim
+##
+
+neovim
+
+
+
+
+##
+## ## Package / Mousepad
+##
+
+mousepad
+
+
+
+
+##
+## ## Package / Sublime Text
+##
+
+sublime-text
