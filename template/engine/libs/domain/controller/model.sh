@@ -681,8 +681,8 @@ EOF
 
 ##
 ## * https://github.com/clefebvre/docker-images
-## * https://github.com/clefebvre/docker-images/blob/master/mint23-amd64.Dockerfile
-## * https://github.com/clefebvre/docker-images/tree/master/mint23/etc/apt
+## * https://github.com/clefebvre/docker-images/blob/master/mint27-amd64.Dockerfile
+## * https://github.com/clefebvre/docker-images/tree/master/mint27/etc/apt
 ##
 
 function sys_add_linuxmint_keyring () {
@@ -711,7 +711,7 @@ function sys_add_linuxmint_apt_sources () {
 cat << __EOF__ | tee "${DISTRO_IMG_DIR_PATH}/etc/apt/sources.list.d/linuxmint.sources" > /dev/null 2>&1
 Types: deb
 URIs: ${PKG_SERVER}
-Suites: alfa
+Suites: adrien
 Components: main upstream import backport
 Architectures: amd64
 Signed-By: /etc/apt/trusted.gpg.d/linuxmint-keyring.gpg
